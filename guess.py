@@ -1,5 +1,5 @@
 #Number Guessing Game Objectives:
-import random
+from random import randint
 # Include an ASCII art logo.
 # Allow the player to submit a guess for a number between 1 and 100.
 
@@ -13,7 +13,7 @@ def game():
   choice = choice.lower()
   
   # Check user's guess against actual answer. Print "Too high." or "Too low." depending on the user's answer.
-  number = random.choice(range(1, 101))
+  number = random.int(range(1, 101))
   print(number)
   
   if choice == 'easy':
