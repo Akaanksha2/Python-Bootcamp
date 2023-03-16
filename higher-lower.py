@@ -57,6 +57,7 @@ while choice:
 
         else:
             print("You are wrong. Play Again!!")
+            print(f"Your Score is: {score}")
             choice = False
 
     else:
